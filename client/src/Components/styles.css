@@ -1,0 +1,189 @@
+#home{
+    background-color: rgb(24, 24, 25);
+    color: white;
+}
+
+#title{
+    font-size: 100px;
+}
+
+#title:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #ff0101;
+  }
+
+#content{
+    font-size: 28px;
+    height: 50%;
+    width: 50%;
+    animation-name:blink;
+    animation-duration:5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:Infinite;
+}
+
+@keyframes blink{
+    0%{color:#fe9400;}
+    50%{color:rgb(240, 1, 1);}
+    100%{color:#00d9ff}
+}
+
+#button1{
+    background-color: #4ff801;
+}
+
+#button1:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #0afa02;
+}
+  
+
+#button2{
+    background-color: #f8ba01
+}
+
+#button2:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #fac002;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    z-index: 9999;
+    position: sticky;
+    position: static;
+}
+
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: static;
+    position: sticky;
+}
+  
+  
+.navbar a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.inbox1{
+    float: left;
+    display: block;
+    background-color:#020202;
+    text-align: center;
+    font-size: 30px;
+}
+
+#button3{
+    background-color: #01e8f8;
+    color: black;
+}
+
+#button3:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #02d5fa;
+}
+
+#img{
+    float:left;
+}
+
+#viewcertificate{
+    background-color: rgb(24, 24, 25);
+    
+}
+
+#viewcert:hover{
+    background: #fac002;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #02f6fa;
+}
+
+#error1{
+    background-color: red;
+    color: white;
+    height: 50px;  
+}
+
+#register{
+    align-items: center;
+}
+
+#register:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #02f6fa;
+   
+}
+
+.animatedButton {
+ 
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #0c4600;
+    border: 2px solid #0c4600;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+  
+}
+
+.animatedButton:after {
+    content: "SUBMIT";
+}
+
+#institutepage:hover {
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #02d5fa;
+}
+
+#certdisplay:hover{
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 100px #02d5fa;
+}
+
+#form{
+    background-color: #fac002;
+    align-items: center;
+    width: 30%;
+    font-size: 30px;
+    color: black;
+    border-radius: 3%;
+   
+}
+
+#form:hover{
+    color:black;
+    box-shadow: 0 0 100px #02d5fa;
+}
+
+
+
+
+
+
+
+
+  
+  
